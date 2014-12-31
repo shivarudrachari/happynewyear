@@ -211,9 +211,34 @@ h1, h2, h3, h4 {
 }
 
 /* (Color Scheme based on Zeno Rocha's Dracula Theme's Color Scheme)*/
+#code .string{
+	color: #e6db74;
+}
+
+#code .number{
+	color: #bd93f9;
+}
+
+#code .boolean{
+	color: #bd93f9;
+}
+
+#code .keyword1{
+	color: #ff79c6;
+	font-weight:bold;
+}
+
+#code .keyword2{
+	color: #8be9fd;
+	font-weight:bold;
+}
 
 #code .comments{
 	color: #6272a4;
+}
+
+#code .tab{
+	margin-left:15px;
 }
 
 /* COUNTDOWN (Time circles) */
