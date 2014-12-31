@@ -2,6 +2,13 @@
 
 (function($){
    	
+	// Preloader 	 
+   	$(window).load(function() { 
+       	$('#status').fadeOut();
+        $('#preloader').delay(100).fadeOut('slow'); 
+        $('body').delay(100).css({'overflow':'visible'});
+    }); 
+	
 	$(document).ready(function() {
 		
 		// Handling Window Resize

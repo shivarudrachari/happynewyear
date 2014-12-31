@@ -16,6 +16,41 @@ a {
 	color: #fff; 
 }
 
+/* GENERAL STYLES */
+
+/* Preloader */
+#preloader {
+	background-color: #282a36;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 999; 
+}
+ 
+#status, .status-msg {
+	font-size: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 200px;
+	left: 50%;
+	margin: -100px 0 0 -100px;
+	position: absolute;
+	top: 50%;
+	width: 200px; 
+}
+ 
+.status-msg {
+	background: none;
+	left: 0;
+	margin: 0;
+	padding-left: 12px;
+	text-align: center;
+	top: 65%; 
+	font-family: 'Lily Script One', cursive;	
+}
+
 /* BASIC STRUCTURE */
 
 .page {
