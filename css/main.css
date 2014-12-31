@@ -80,7 +80,15 @@ a {
 	margin-bottom: 40px;
 }
 
-.links a {
+.share { 
+	margin-top: 30px;
+}
+
+.share li { 
+	padding: 0; 
+}
+
+.links a, .share a {
 	border-radius: 150px;
 	border: 2px solid #fff;
 	display: inline-block;
@@ -96,7 +104,14 @@ a {
 	     -o-transition: all 0.5s ease-in-out;
 	}
 
-	.links a:hover, .share a:hover {
+.share a {
+	height: 40px;
+	line-height: 36px;
+	width: 40px;
+	margin: 0 5px;
+}
+
+.links a:hover, .share a:hover {
 	background: #fff;
 	color: #222;
 }
