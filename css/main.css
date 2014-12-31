@@ -51,6 +51,17 @@ a {
 	font-family: 'Lily Script One', cursive;	
 }
 
+/* Video Background */
+#back {
+	position: fixed;
+	width: 1920px;
+	height: 1920px;
+	z-index: -1;
+	top: -430px;
+	left: -20%;
+
+}
+
 /* BASIC STRUCTURE */
 
 .page {
